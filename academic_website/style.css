@@ -52,8 +52,9 @@ main {
 .photo img {
   width: 150px;
   height: auto;
-  border-radius: 50%;
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  border: 3px solid #ccc; /* light gray border */
+  border-radius: 8px; /* small rounded corners, optional */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); /* softer shadow */
 }
 
 @media (max-width: 768px) {

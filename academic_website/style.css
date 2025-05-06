@@ -1,12 +1,12 @@
 body {
   font-family: Arial, sans-serif;
   margin: 40px;
-  background: #f9f9f9;
+  background: #e8e8ca; /* Updated background color */
   color: #333;
 }
 
 nav {
-  background: #eee;
+  background: #d1d1a5; /* Updated banner background */
   padding: 10px;
   margin-bottom: 20px;
 }
@@ -14,7 +14,7 @@ nav {
 nav a {
   margin-right: 20px;
   text-decoration: none;
-  color: #0077cc;
+  color: #005fa3; /* Updated link color */
 }
 
 nav a:last-child {
@@ -22,7 +22,7 @@ nav a:last-child {
 }
 
 nav a:hover {
-  color: #005fa3;
+  color: #003f73; /* Slightly darker hover color for #005fa3 */
   text-decoration: underline;
 }
 
@@ -66,4 +66,3 @@ main {
     margin-top: 20px;
   }
 }
-
